@@ -31,7 +31,7 @@
       ],
       "versions": [
         {
-          "version": "5.2b1",
+          "version": "20.23.3",
           "marketingVersion": "5.2b1",
           "date": "2025-03-29T22:00:00Z",
             "localizedDescription": "- Completely rewritten downloader mechanism\n- Added multi-download support\n- Added video resumption (for now, you’ll need to disable automatic cache clearing and download video in the same quality)\n- Added support for multiple toasts at the same time. You can rotate them by tapping on them\n- Added the ability to hide the download progress with a long press on the \"Stop\" button\n- Added the option to hide the \"Create Remix\" and \"Listen to in YouTube Music\" buttons in the video menu\n- Added the ability to reorder videos in all sorting types of playlists (YouTube removed this feature)\n- Added options to Save, Share and Copy image from Image viewer\n- Now, a long press on the first tab of the tab bar opens Tab settings instead of showing/hiding the Library tab\n- Fixed a bug that prevented hiding the Home tab\n- Fixed a bug with the black Premium logo\n- Fixed a bug with a black background in saved posts\n- Fixed a bug where SponsorBlock notifications were not showing\n- Fixed a bug with Shorts, removed new ads\n- Removed even more ads\n- Fixed remember loop\n- Fixed captions and audio-tracks selection on newest YT versions\n- Other minor fixes and improvements",
