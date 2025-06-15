@@ -52,7 +52,8 @@
           "com.apple.developer.siri",
           "com.apple.security.application-groups",
           "keychain-access-groups",
-          "aps-environment"
+          "aps-environment",
+          "get-task-allow"
         ],
         "privacy": {
           "NSAppleMusicUsageDescription": "YTLite requires access to your Apple Music library.",
