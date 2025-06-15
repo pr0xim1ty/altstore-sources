@@ -1,0 +1,73 @@
+{
+  "name": "YTLite",
+  "subtitle": "Unofficial source of YTLite",
+  "description": "The unofficial AltStore source of the YouTube tweak, YTLite.",
+  "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/header.png",
+  "website": "https://github.com/dayanch96/YTLite",
+  "tintColor": "#F9A3A2",
+  "featuredApps": [
+    "com.google.ios.youtube"
+  ],
+  "apps": [
+    {
+      "name": "YTLite",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "dayanch96",
+      "subtitle": "A flexible enhancer for YouTube on iOS",
+      "localizedDescription": "A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/icon.png",
+      "tintColor": "#5CA399",
+      "category": "social",
+      "screenshots": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/scr9.jpg"
+      ],
+      "versions": [
+        {
+          "version": "5.2b1",
+          "buildVersion": "",
+          "marketingVersion": "5.2b1",
+          "date": "2025-03-29T22:00:00Z",
+          "localizedDescription": "Completely rewritten downloader mechanism\n- Added multi-download support\n- Added video resumption (for now, you’ll need to disable automatic cache clearing and download video in the same quality)\n- Added support for multiple toasts at the same time. You can rotate them by tapping on them\n- Added the ability to hide the download progress with a long press on the \"Stop\" button\n- Added the option to hide the \"Create Remix\" and \"Listen to in YouTube Music\" buttons in the video menu\n- Added the ability to reorder videos in all sorting types of playlists (YouTube removed this feature)\n- Added options to Save, Share and Copy image from Image viewer\n- Now, a long press on the first tab of the tab bar opens Tab settings instead of showing/hiding the Library tab\n- Fixed a bug that prevented hiding the Home tab\n- Fixed a bug with the black Premium logo\n- Fixed a bug with a black background in saved posts\n- Fixed a bug where SponsorBlock notifications were not showing\n- Fixed a bug with Shorts, removed new ads\n- Removed even more ads\n- Fixed remember loop\n- Fixed captions and audio-tracks selection on newest YT versions\n- Other minor fixes and improvements",
+          "downloadURL": "https://files.catbox.moe/teumll.ipa",
+          "size": 5760000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.security.application-groups",
+          "keychain-access-groups",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "YTLite requires access to your Apple Music library.",
+          "NSBluetoothPeripheralUsageDescription": "YTLite requires Bluetooth access to connect with nearby peripherals.",
+          "NSCameraUsageDescription": "YTLite requires access to the camera to capture photos and videos.",
+          "NSContactsUsageDescription": "YTLite requires access to your contacts to help you share content with your friends.",
+          "NSLocalNetworkUsageDescription": "YTLite requires local network access to connect and communicate with nearby devices.",
+          "NSLocationWhenInUseUsageDescription": "YTLite requires access to your location while using the app to provide personalized recommendations.",
+          "NSMicrophoneUsageDescription": "YTLite requires access to your microphone to record audio.",
+          "NSPhotoLibraryUsageDescription": "YTLite requires access to your Photo Library to save photos and videos.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YTLite will link activity from this app with activity from non-Google apps and websites."
+        }
+      }
+    }
+  ]
+}
