@@ -49,6 +49,7 @@
           "com.apple.developer.group-session",
           "com.apple.developer.networking.multicast",
           "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.storekit.request-data",
           "com.apple.developer.siri",
           "com.apple.security.application-groups",
           "keychain-access-groups",
