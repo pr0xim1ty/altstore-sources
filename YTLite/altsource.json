@@ -1,21 +1,20 @@
 {
   "name": "YTLite",
   "subtitle": "Unofficial source of YTLite",
-  "description": "The unofficial AltStore source of the YouTube tweak, YTLite. YTLite is a flexible enhancer for YouTube on iOS, featuring over hundred customizable options.",
+  "description": "The unofficial AltStore source of the YouTube tweak, YTLite. YTLite is a flexible enhancer for YouTube on iOS, featuring over hundreds of customizable options.",
   "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/icon.png",
   "headerURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/header.png",
   "website": "https://github.com/dayanch96/YTLite",
+  "patreonURL": "https://www.patreon.com/dayanch96",
   "tintColor": "#F9A3A2",
-  "featuredApps": [
-    "com.google.ios.youtube"
-  ],
+  "featuredApps": ["com.google.ios.youtube"],
   "apps": [
     {
       "name": "YTLite",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "dayanch96",
       "subtitle": "A flexible enhancer for YouTube on iOS",
-      "localizedDescription": "A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.",
+      "localizedDescription": "A flexible enhancer for YouTube on iOS, featuring over hundreds of customizable options.",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/icon.png",
       "tintColor": "#F9A3A2",
       "category": "social",
@@ -33,19 +32,19 @@
         {
           "version": "20.31.5",
           "marketingVersion": "5.2b2",
-          "date": "2025-03-29T22:00:00Z",
-            "localizedDescription": "- This update is primarily focused on improving stability and fixing major and critical bugs.\n- Introduced SponsorBlock Engine to handle sponsorblock api, sponsor segments and video interaction\n- Added the ability to whitelist channels (SponsorBlock) and manage the list\n- Added support for creating, saving, and editing private and public SponsorBlock UserIDs (more features coming soon)\n- Reworked the player gesture toast, with a new compact mode\n- Rewritten progress toast with support for swipe-to-dismiss gestures, also now used by SponsorBlock\n- Added ability to open clipboard links (Long-press on the first tab → Open Link)\n- Added an option to automatically check and open clipboard for any YouTube-related links (YTPlus Settings → Interface → Other)\n- Fixed an issue where post images couldn’t be opened by tapping\n- Fixed crashes while scrolling through the feed\n- Fixed rare crashes during video playback\n- Fixed crashes with Speed Controls in the player overlay\n- Speed Controls interaction now resets the overlay auto-hide timer\n- Fixed playback rate changing up to 5x, both, overlay controls and gestures\n- Fixed issues related to hiding menu buttons\n- Fixed overlay buttons not hiding correctly in Shorts\n- Fixed tab bar issues\n- Fixed minor bugs in the feed\n- Improved gesture interaction within the player\n- Fixed general overlay interaction issues\n- Partially rewritten YTPlus settings for better stability and UX. Replaced oversized YT Sheets with compact menus, tapping a cell now shows a detailed alert\n- Various minor internal code improvements and cleanups",
-            "downloadURL": "https://files.catbox.moe/8ofoes.ipa",
-            "size": 118140000,
+          "date": "2025-07-24T21:32:17Z",
+          "localizedDescription": "- This update is primarily focused on improving stability and fixing major and critical bugs.\n- Introduced SponsorBlock Engine to handle sponsorblock api, sponsor segments and video interaction\n- Added the ability to whitelist channels (SponsorBlock) and manage the list\n- Added support for creating, saving, and editing private and public SponsorBlock UserIDs (more features coming soon)\n- Reworked the player gesture toast, with a new compact mode\n- Rewritten progress toast with support for swipe-to-dismiss gestures, also now used by SponsorBlock\n- Added ability to open clipboard links (Long-press on the first tab → Open Link)\n- Added an option to automatically check and open clipboard for any YouTube-related links (YTPlus Settings → Interface → Other)\n- Fixed an issue where post images couldn’t be opened by tapping\n- Fixed crashes while scrolling through the feed\n- Fixed rare crashes during video playback\n- Fixed crashes with Speed Controls in the player overlay\n- Speed Controls interaction now resets the overlay auto-hide timer\n- Fixed playback rate changing up to 5x, both, overlay controls and gestures\n- Fixed issues related to hiding menu buttons\n- Fixed overlay buttons not hiding correctly in Shorts\n- Fixed tab bar issues\n- Fixed minor bugs in the feed\n- Improved gesture interaction within the player\n- Fixed general overlay interaction issues\n- Partially rewritten YTPlus settings for better stability and UX. Replaced oversized YT Sheets with compact menus, tapping a cell now shows a detailed alert\n- Various minor internal code improvements and cleanups",
+          "downloadURL": "https://files.catbox.moe/8ofoes.ipa",
+          "size": 123962632,
           "minOSVersion": "16.0"
         },
         {
           "version": "20.23.3",
           "marketingVersion": "5.2b1",
-          "date": "2025-03-29T22:00:00Z",
-            "localizedDescription": "- Completely rewritten downloader mechanism\n- Added multi-download support\n- Added video resumption (for now, you’ll need to disable automatic cache clearing and download video in the same quality)\n- Added support for multiple toasts at the same time. You can rotate them by tapping on them\n- Added the ability to hide the download progress with a long press on the \"Stop\" button\n- Added the option to hide the \"Create Remix\" and \"Listen to in YouTube Music\" buttons in the video menu\n- Added the ability to reorder videos in all sorting types of playlists (YouTube removed this feature)\n- Added options to Save, Share and Copy image from Image viewer\n- Now, a long press on the first tab of the tab bar opens Tab settings instead of showing/hiding the Library tab\n- Fixed a bug that prevented hiding the Home tab\n- Fixed a bug with the black Premium logo\n- Fixed a bug with a black background in saved posts\n- Fixed a bug where SponsorBlock notifications were not showing\n- Fixed a bug with Shorts, removed new ads\n- Removed even more ads\n- Fixed remember loop\n- Fixed captions and audio-tracks selection on newest YT versions\n- Other minor fixes and improvements",
-            "downloadURL": "https://files.catbox.moe/teumll.ipa",
-            "size": 118140000,
+          "date": "2025-03-29T22:00:55Z",
+          "localizedDescription": "- Completely rewritten downloader mechanism\n- Added multi-download support\n- Added video resumption (for now, you’ll need to disable automatic cache clearing and download video in the same quality)\n- Added support for multiple toasts at the same time. You can rotate them by tapping on them\n- Added the ability to hide the download progress with a long press on the \"Stop\" button\n- Added the option to hide the \"Create Remix\" and \"Listen to in YouTube Music\" buttons in the video menu\n- Added the ability to reorder videos in all sorting types of playlists (YouTube removed this feature)\n- Added options to Save, Share and Copy image from Image viewer\n- Now, a long press on the first tab of the tab bar opens Tab settings instead of showing/hiding the Library tab\n- Fixed a bug that prevented hiding the Home tab\n- Fixed a bug with the black Premium logo\n- Fixed a bug with a black background in saved posts\n- Fixed a bug where SponsorBlock notifications were not showing\n- Fixed a bug with Shorts, removed new ads\n- Removed even more ads\n- Fixed remember loop\n- Fixed captions and audio-tracks selection on newest YT versions\n- Other minor fixes and improvements",
+          "downloadURL": "https://files.catbox.moe/teumll.ipa",
+          "size": 120974932,
           "minOSVersion": "16.0"
         }
       ],
@@ -66,15 +65,15 @@
           "get-task-allow"
         ],
         "privacy": {
-          "NSAppleMusicUsageDescription": "YTLite requires access to your Apple Music library.",
-          "NSBluetoothPeripheralUsageDescription": "YTLite requires Bluetooth access to connect with nearby peripherals.",
-          "NSCameraUsageDescription": "YTLite requires access to the camera to capture photos and videos.",
-          "NSContactsUsageDescription": "YTLite requires access to your contacts to help you share content with your friends.",
-          "NSLocalNetworkUsageDescription": "YTLite requires local network access to connect and communicate with nearby devices.",
-          "NSLocationWhenInUseUsageDescription": "YTLite requires access to your location while using the app to provide personalized recommendations.",
-          "NSMicrophoneUsageDescription": "YTLite requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "YTLite requires access to your Photo Library to save photos and videos.",
-          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YTLite will link activity from this app with activity from non-Google apps and websites."
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
         }
       }
     }
