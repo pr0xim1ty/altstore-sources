@@ -59,7 +59,7 @@
           "com.apple.developer.networking.wifi-info",
           "com.apple.developer.storekit.request-data",
           "com.apple.developer.siri",
-          "com.apple.developer.usernotifications.communication"
+          "com.apple.developer.usernotifications.communication",
           "com.apple.security.application-groups",
           "keychain-access-groups",
           "aps-environment",
